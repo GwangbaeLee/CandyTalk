@@ -1,3 +1,7 @@
+#find-screen {
+  height: 110vh;
+}
+
 .screen__header__icons {
   position: relative;
 }

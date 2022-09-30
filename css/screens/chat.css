@@ -1,11 +1,11 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: #fff56e;
   height: 200vh;
 }
 
 #chat-screen .status-bar,
 #chat-screen .alt-header {
-  background-color: #abc1d1;
+  background-color: #fff56e;
   top: 0;
   position: fixed;
   width: 100%;
@@ -23,7 +23,7 @@
 
 @keyframes fadeIn {
   from {
-    transform: translateY(-30px);
+    transform: translateY(-20px);
     opacity: 0;
   }
   to {
@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: fadeIn 0.3s linear forwards;
+  animation: fadeIn 0.8s linear forwards;
 }
 
 .chat__timestamp {
