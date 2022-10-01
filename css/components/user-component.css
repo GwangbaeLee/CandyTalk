@@ -28,13 +28,13 @@
 .user-component__avatar--xl {
   width: 90px;
   height: 90px;
-  border-radius: 34px;
+  border-radius: 30%;
 }
 
 .user-component__avatar--sm {
   width: 70px;
   height: 70px;
-  border-radius: 26px;
+  border-radius: 30%;
 }
 
 .user-component__title--not-bold {
@@ -51,4 +51,11 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+#candy {
+  padding: 10px 10px;
+  width: 70px;
+  height: 70px;
+  background-color: var(--yellow);
 }

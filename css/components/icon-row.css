@@ -18,3 +18,7 @@
   margin-top: 20px;
   font-weight: 600;
 }
+
+.icon-row span {
+  text-align: center;
+}
