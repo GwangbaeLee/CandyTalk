@@ -23,7 +23,6 @@
 
 @keyframes fadeIn {
   from {
-    transform: translateY(-20px);
     opacity: 0;
   }
   to {
@@ -37,22 +36,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: fadeIn 0.8s linear forwards;
 }
 
 .chat__timestamp {
   color: white;
-  background-color: #ffcfda;
+  background-color: #ffd9e4;
   padding: 15px 15px;
   font-size: 20px;
   border-radius: 25px;
   margin-bottom: 30px;
+  animation: fadeIn 0.3s linear forwards;
+  border: 2px solid white;
 }
 
 .message-row {
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+}
+
+.message-row__left {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: fadeIn 0.5s linear forwards;
+  animation-delay: 0.5s;
+}
+
+.message-row__right {
+  opacity: 0;
+  transform: translateX(20px);
+  animation: fadeIn 0.5s linear forwards;
+  animation-delay: 1s;
 }
 
 .message-row img {

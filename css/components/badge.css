@@ -1,3 +1,15 @@
+@keyframes rotate360deg {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .badge {
   background-color: tomato;
   width: 26px;
@@ -8,4 +20,5 @@
   align-items: center;
   color: white;
   font-weight: 600;
+  animation: rotate360deg 2s ease-in-out infinite;
 }
