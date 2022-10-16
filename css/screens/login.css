@@ -9,7 +9,7 @@
 .welcome-header__title {
   margin-bottom: 40px;
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .welcome-header__text {
@@ -25,6 +25,7 @@
 
 #login-form input {
   border: none;
+  background-color: rgba(1, 1, 1, 0);
   padding: 10px 0px;
   font-size: 18px;
   margin-bottom: 25px;
@@ -36,7 +37,7 @@
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 #login-form input:focus {
@@ -48,6 +49,9 @@
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
+
+  font-weight: 700;
+  font-size: 20px;
 }
 
 #login-form a {

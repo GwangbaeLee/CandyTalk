@@ -69,7 +69,6 @@
 }
 
 .open-post__hashtag {
-  text-transform: uppercase;
   opacity: 0.6;
   font-size: 20px;
 }
@@ -110,7 +109,7 @@
 .open-post__photo img {
   width: 120px;
   height: 120px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .open-post__heart-count {
